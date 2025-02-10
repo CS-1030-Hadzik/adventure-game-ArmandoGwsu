@@ -11,3 +11,9 @@ to navigate through a mysterious forest.
 # Welcome message and introduction
 print("Welcome to the Adventure Game!")
 print("Your journey begins here...")
+
+# Ask for the players name
+player_name = input('what is your name, adventurer?')
+
+#Concatenate strings to creat a personalized message
+print("welcome, " + player_name + "! Your journey begins now.")
